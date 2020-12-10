@@ -1,1 +1,1 @@
-# nodejs-onion-redis-sentiment-analyser-session
+# Node.js Onion Redis Sentiment Analyser session

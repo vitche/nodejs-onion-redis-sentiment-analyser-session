@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-onion-redis-sentiment-analyser-session",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitche/nodejs-onion-redis-sentiment-analyser-session.git"
+  },
+  "author": "Vitche Research Team Developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitche/nodejs-onion-redis-sentiment-analyser-session/issues"
+  },
+  "homepage": "https://github.com/vitche/nodejs-onion-redis-sentiment-analyser-session#readme",
+  "dependencies": {
+    "nodejs-onion-redis-call": "git+https://github.com/vitche/nodejs-onion-redis-call.git"
+  }
+}
