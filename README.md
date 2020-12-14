@@ -10,3 +10,12 @@ cd nodejs-onion-redis-sentiment-analyser-session
 npm install
 npm install . -g
 ```
+## Using the CLI
+```shell
+sentiment "{logOn}" "{password}" "{text}"
+```
+## Sample output
+```shell
+sentiment "user" "password" "A girl, a pencil, a table."
+{ positive: 0.9998995065689087, negative: 0.00010050927085103467 }
+```
