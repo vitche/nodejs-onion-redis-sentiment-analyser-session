@@ -3,3 +3,10 @@
 ```shell
 npm install -g git+https://github.com/vitche/nodejs-onion-redis-sentiment-analyser-session.git
 ```
+OR
+```shell
+git clone npm install https://github.com/vitche/nodejs-onion-redis-sentiment-analyser-session.git
+cd nodejs-onion-redis-sentiment-analyser-session
+npm install
+npm install . -g
+```
