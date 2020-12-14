@@ -2,7 +2,7 @@
 const environment = require("dotenv");
 let Session = require('./session');
 
-environment.config();
+environment.config({path: __dirname + "/.env"});
 
 if (5 > process.argv.length) {
     console.log('Usage: sentiment "{logOn}" "{password}" "{text}"');
